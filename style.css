@@ -1,0 +1,50 @@
+body {
+    background: black;
+}
+
+.post {
+	background: white;
+	width: 400px;
+	height: 600px;
+	margin: auto;
+    margin-top: 30px;
+}
+
+.postheader {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.postheaderdata {
+    font-size: small;
+    position: relative;
+    margin-left: -260px;
+    margin-top: -4px;
+    
+}
+.postheaderdata p {
+    margin-top: 0px;
+}
+.postheaderdata h1 {
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+
+/* .rightHeader {
+    margin: 0px;
+    padding-left: 316px;
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerText{
+    margin-top: 20px;
+    padding: 0px 5px 2px 5px;
+}
+
